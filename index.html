@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Add font awesome-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <nav class="sidebar">
+        <ul class="nav-links">
+            <li><img src="assets/twitter.png" alt="Profile"  class="profile-image"></li>
+           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#"><i class="fa fa-hashtag"></i> Explore</a></li>
+            <li><a href="#"><i class="fa fa-bell"></i> Notifications</a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i> Messages</a></li>
+             <li><a href="#"><i class="fa fa-bookmark"></i> Bookmarks</a></li>
+              <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+             <li><a href="#"><i class="fa fa-ellipsis-h"></i> More</a></li>
+        </ul>
+        <button class="tweet-btn">Tweet</button>
+    </nav>
+
+    <main class="main-content">
+       <div class="timeline">
+         <div class="timeline-header">
+             <h2>Home</h2>
+         </div>
+
+          <div class="post-box">
+              <img src="assets/twitter.png" alt="Profile" class="profile-image">
+              <input type="text" placeholder="What's happening?" class="tweet-input">
+          </div>
+
+            <div class="post">
+                <div class="post-header">
+                    <img src="assets/st photo.jpg" alt="Profile" class="profile-image">
+                    <div class="post-info">
+                      <h3 class="username">Mireille Irafasha</h3>
+                      <p class="time-posted">4h</p>
+                     </div>
+                </div>
+                <p class="post-text">This is the twitter post that i have </br>
+                learning requires so much efforts and dedication to be whoever you ever dreamed of.❤️❤️❤️</p>
+
+                 <p>To get it
+                  Like👍</br>
+                  Reply "React" ®️</br>
+                  Follow me (so I can DM)
+                 </p>
+
+               <div class="post-icons">
+                    <span><i class="fa fa-comment"></i></span>
+                    <span><i class="fa fa-retweet"></i></span>
+                    <span><i class="fa fa-heart"></i></span>
+                    <span><i class="fa fa-share-alt"></i></span>
+                </div>
+            </div>
+         </div>
+    </main>
+
+    <aside class="right-sidebar">
+         <div class="search-box">
+            <input type="text" placeholder="Search Twitter" class="search-input">
+            <i class="fa fa-search search-icon"></i>
+         </div>
+
+        <div class="trends">
+            <h2>Trends for you</h2>
+            <ul class="trend-list">
+               <li>
+                  <p>Technology Trending</p>
+                   <h4>#reactis</h4>
+                   <p>1,809 Tweets</p>
+                 </li>
+                  <li>
+                  <p>Politics-Trending</p>
+                   <h4>USA</h4>
+                   <p>35.4K Tweets</p>
+                 </li>
+                <li>
+                  <p>Trending in Rwanda</p>
+                   <h4>Money</h4>
+                   <p>1.21M Tweets</p>
+                 </li>
+             </ul>
+           <button>Show More</button>
+        </div>
+
+        <div class="who-to-follow">
+            <h2>Who to follow</h2>
+            <ul class="follow-list">
+                <li>
+                    <img src="assets/ftwitter.png" alt="Profile" class="profile-image">
+                    <div class="follow-info">
+                      <h3>UR Public Health</h3>
+                      <p>@urphsa</p>
+                    </div>
+                   <button>Follow</button>
+                  </li>
+
+                   <!-- ... more follow items ... -->
+            </ul>
+        </div>
+    </aside>
+</body>
+</html>
